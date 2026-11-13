@@ -1,0 +1,20 @@
+# Core
+numpy
+pandas
+opencv-python
+scipy
+
+# Detector (pulls in torch; install a CUDA build of torch first if you have a GPU:
+# https://pytorch.org/get-started/locally/)
+ultralytics>=8.0
+
+# SORT tracker dependencies (YOLO_train/sort/sort.py)
+filterpy
+scikit-image
+matplotlib
+
+# Augmentation
+albumentations
+
+# Optional: SAM-assisted annotation (scripts/mask_hexbugs_SAM.py)
+# pip install git+https://github.com/facebookresearch/segment-anything.git

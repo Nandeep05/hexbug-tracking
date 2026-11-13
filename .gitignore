@@ -1,0 +1,36 @@
+# --- Environments / IDE ---
+.venv/
+venv/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+
+# --- Large data (distributed separately, see README) ---
+dataset/raw_videos/
+dataset/test_videos/
+dataset/annotated_frames/
+dataset/bounding_boxes/
+YOLO_train/images/
+YOLO_train/labels/
+backup/
+checkpoints/
+scripts/debug_frames/
+
+# --- Training outputs / inference outputs ---
+YOLO_train/runs/
+YOLO_train/ran_tests/
+
+# --- Model weights (published as GitHub Release assets) ---
+*.pt
+*.pth
+
+# --- Media ---
+*.mp4
+*.avi
+*.png
+*.jpg
+*.jpeg
+*.cache
+# README demo image
+!YOLO_train/first_frame_with_tracking.jpg
