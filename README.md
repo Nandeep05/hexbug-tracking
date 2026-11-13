@@ -47,7 +47,7 @@ Python 3.10 was used. Scripts auto-select GPU when available and fall back to CP
 | 100 training videos (`training001.mp4` …) | `dataset/raw_videos/` | seminar dataset |
 | 5 test videos | `dataset/test_videos/` | seminar dataset |
 | Point annotations (`.csv`, `.traco`) | `dataset/csv_files/`, `dataset/txt_files/` | **included in repo** |
-| Trained detector `best.pt` (43 MB) | `YOLO_train/runs/train/hexbug_train10/weights/` | GitHub Release |
+| Trained detector `best.pt` (43 MB) | `YOLO_train/runs/train/hexbug_train10/weights/` | [Release v1.0](https://github.com/Nandeep05/hexbug-tracking/releases/tag/v1.0) |
 | SAM ViT-B checkpoint (optional) | `checkpoints/sam_vit_b_01ec64.pth` | [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything#model-checkpoints) |
 
 CSV columns: `t` (frame), `hexbug` (id), `x`, `y`.
@@ -120,4 +120,5 @@ docs/           metrics of the final training run
 
 ## License
 
-MIT for this project's code. `YOLO_train/sort/sort.py` is GPL-3.0 (Alex Bewley).
+MIT for this project's code. `YOLO_train/sort/sort.py` is GPL-3.0 (Alex Bewley);
+see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
